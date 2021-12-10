@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblInfo = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.lblId = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
@@ -51,15 +51,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.grdStudent)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblInfo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Students Information";
+            this.lblInfo.AutoSize = true;
+            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Location = new System.Drawing.Point(12, 9);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(164, 18);
+            this.lblInfo.TabIndex = 0;
+            this.lblInfo.Text = "Students Information";
             // 
             // txtLastName
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblInfo);
             this.Name = "StudentsForm";
             this.Text = "Students";
             this.Load += new System.EventHandler(this.StudentsForm_Load);
@@ -268,7 +268,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblInfo;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label lblLastName;

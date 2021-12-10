@@ -74,8 +74,8 @@ namespace MyWindowsFormsApp
         }
         private void grdStudent_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            cmbLastName.SelectedItem = txtLastName.Text.ToString();
             ReadSelectedRow();
+            cmbLastName.SelectedItem = txtLastName.Text.ToString();
         }
         private void RefreshGridView()
         {
@@ -98,8 +98,8 @@ namespace MyWindowsFormsApp
         {
             if (grdStudent.SelectedRows.Count > 0)
             {
-                cmbLastName.SelectedItem = txtLastName.Text.ToString();
                 ReadSelectedRow();
+                cmbLastName.SelectedItem = txtLastName.Text.ToString();
             }
         }
 
